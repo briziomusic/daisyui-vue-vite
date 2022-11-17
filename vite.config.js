@@ -3,5 +3,5 @@ import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
   plugins: [vue()],
-  base: 'daisyui-vue-vite'
+  base: '/daisyui-vue-vite/'
 });
