@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+echo '###################### DEPLOY.SH ###################### '
+
 # abort on errors
 set -e
 
