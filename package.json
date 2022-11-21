@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/daisyui-vue-vite/",
+    "build": "vite build --base=/my/public/path/",
     "serve": "vite preview"
   },
   "dependencies": {
