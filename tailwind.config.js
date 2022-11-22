@@ -1,6 +1,9 @@
 module.exports = {
   content: ['./src/**/*.{vue,js,ts}'],
   plugins: [require('daisyui')],
+  build: {
+    outDir: '../docs'
+  },
 
   // daisyUI config (optional)
   daisyui: {
