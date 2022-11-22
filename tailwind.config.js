@@ -13,6 +13,8 @@ module.exports = {
     prefix: "",
     darkTheme: "dark",
     themes: [
+      "light", 
+      "dark", 
       {
         mytheme: {
         
@@ -34,6 +36,7 @@ module.exports = {
                   
           "error": "#F34960",
         },
+        
       },
     ]
   },
