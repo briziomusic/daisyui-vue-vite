@@ -1,3 +1,3 @@
 <template>
-  <button class="btn">Hello daisyui</button>
+  <button class="btn">Hello world!</button>
 </template>
