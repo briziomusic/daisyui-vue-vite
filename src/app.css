@@ -4,27 +4,24 @@
 
 @font-face {
   font-family: "BNPP Sans";
-  src: url(https://www.ilmioleasing.it/fonts/bnpp_sans-webfont.eot);
-  src: url(https://www.ilmioleasing.it/fonts/bnpp_sans-webfont.eot?#iefix)
-      format("embedded-opentype"),
-    url(https://www.ilmioleasing.it/fonts/bnpp_sans-webfont.woff) format("woff"),
-    url(https://www.ilmioleasing.it/fonts/bnpp_sans-webfont.ttf)
-      format("truetype"),
-    url(https://www.ilmioleasing.it/fonts/bnpp_sans-webfont.svg#BNPSans)
-      format("svg");
+  src: url("https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans.woff")
+      format("woff"),
+    url("https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans.ttf")
+      format("truetype");
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
 }
-
+/*
 @font-face {
   font-family: "BNPSansCondensed";
-  src: url(https://www.ilmioleasing.it/fonts/bnpp_sans_cond_v2-webfont.eot);
-  src: url(https://www.ilmioleasing.it/fonts/bnpp_sans_cond_v2-webfont.eot?#iefix)
+  src: url("@/assets/fonts/bnpp_sans_cond_v2-webfont.eot");
+  src: url("@/assets/fonts/bnpp_sans_cond_v2-webfont.eot?#iefix")
       format("embedded-opentype"),
-    url(../font/bnpp_sans_cond_v2-webfont.woff) format("woff"),
-    url(../font/bnpp_sans_cond_v2-webfont.ttf) format("truetype"),
-    url(../font/bnpp_sans_cond_v2-webfont.svg#BNPSansCondensed) format("svg");
+    url("@/assets/fonts/bnpp_sans_cond_v2-webfont.woff") format("woff"),
+    url("@/assets/fonts/bnpp_sans_cond_v2-webfont.ttf") format("truetype"),
+    url("@/assets/fonts/bnpp_sans_cond_v2-webfont.svg#BNPSansCondensed")
+      format("svg");
   font-weight: 100;
   font-style: normal;
   font-stretch: normal;
@@ -32,13 +29,25 @@
 
 @font-face {
   font-family: "BNPRounded", sans-serif;
-  src: url(https://www.ilmioleasing.it/fonts/bnpp-rounded-v2.eot);
-  src: url(https://www.ilmioleasing.it/fonts/bnpp-rounded-v2.eot?#iefix)
+  src: url("@/assets/fonts/bnpp-rounded-v2.eot");
+  src: url("@/assets/fonts/bnpp-rounded-v2.eot?#iefix")
       format("embedded-opentype"),
-    url(../font/bnpp-rounded-v2.woff) format("woff"),
-    url(../font/bnpp-rounded-v2.ttf) format("truetype"),
-    url(../font/bnpp-rounded-v2.svg#BNPRounded) format("svg");
+    url("@/assets/fonts/bnpp-rounded-v2.woff") format("woff"),
+    url("@/assets/fonts/bnpp-rounded-v2.ttf") format("truetype"),
+    url("@/assets/fonts/bnpp-rounded-v2.svg#BNPRounded") format("svg");
   font-weight: 100;
   font-style: normal;
   font-stretch: normal;
+}
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+body {
+  font-family: "BNPP Sans", sans-serif;
 }
