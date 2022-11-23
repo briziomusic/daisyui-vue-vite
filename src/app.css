@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "BNPP Sans";
+  src: url(https://www.ilmioleasing.it/fonts/bnpp_sans-webfont.eot);
+  src: url(https://www.ilmioleasing.it/fonts/bnpp_sans-webfont.eot?#iefix) format("embedded-opentype"), url(https://www.ilmioleasing.it/fonts/bnpp_sans-webfont.woff) format("woff"), url(https://www.ilmioleasing.it/fonts/bnpp_sans-webfont.ttf) format("truetype"), url(https://www.ilmioleasing.it/fonts/bnpp_sans-webfont.svg#BNPSans) format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "BNPSansCondensed";
+  src: url(https://www.ilmioleasing.it/fonts/bnpp_sans_cond_v2-webfont.eot);
+  src: url(https://www.ilmioleasing.it/fonts/bnpp_sans_cond_v2-webfont.eot?#iefix) format("embedded-opentype"), url(../font/bnpp_sans_cond_v2-webfont.woff) format("woff"), url(../font/bnpp_sans_cond_v2-webfont.ttf) format("truetype"), url(../font/bnpp_sans_cond_v2-webfont.svg#BNPSansCondensed) format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "BNPRounded", sans-serif;
+  src: url(https://www.ilmioleasing.it/fonts/bnpp-rounded-v2.eot);
+  src: url(https://www.ilmioleasing.it/fonts/bnpp-rounded-v2.eot?#iefix) format("embedded-opentype"), url(../font/bnpp-rounded-v2.woff) format("woff"), url(../font/bnpp-rounded-v2.ttf) format("truetype"), url(../font/bnpp-rounded-v2.svg#BNPRounded) format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+}

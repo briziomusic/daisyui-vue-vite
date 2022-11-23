@@ -1,6 +1,11 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   content: ['./src/**/*.{vue,js,ts}'],
-  plugins: [require('daisyui')],
+  plugins: [
+    require("@tailwindcss/typography"),
+    require('daisyui')
+  ],
 
   // daisyUI config (optional)
   daisyui: {
@@ -12,9 +17,16 @@ module.exports = {
     rtl: false,
     prefix: "",
     darkTheme: "dark",
+    theme: {
+      fontFamily: {
+        'sans': ['"BNPP Sans"', 'system-ui'],
+        'serif': ['"BNPP Sans"', 'Georgia'],
+        'mono': ['"BNPP Sans"', 'SFMono-Regular'],
+        'display': ['"BNPP Sans"'],
+        'body': ['"BNPP Sans"'],
+      }
+    },
     themes: [
-      "light", 
-      "dark", 
       {
         mytheme: {
         
@@ -35,9 +47,19 @@ module.exports = {
           "warning": "#F19D37",
                   
           "error": "#F34960",
+          fontFamily: {
+            'sans': ['"BNPP Sans"', 'system-ui'],
+            'serif': ['"BNPP Sans"', 'Georgia'],
+            'mono': ['"BNPP Sans"', 'SFMono-Regular'],
+            'display': ['"BNPP Sans"'],
+            'body': ['"BNPP Sans"'],
+          }
         },
         
       },
+      "light", 
+      "dark", 
+      
     ]
   },
 
