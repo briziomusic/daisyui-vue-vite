@@ -14,17 +14,7 @@ module.exports = {
     rtl: false,
     prefix: "",
     darkTheme: "dark",
-    theme: {
-      extend: {
-        fontFamily: {
-          sans: ["BNPP Sans", "system-ui"],
-          serif: ["BNPP Sans", "Georgia"],
-          mono: ["BNPP Sans", "SFMono-Regular"],
-          display: ["BNPP Sans"],
-          body: ["BNPP Sans"],
-        },
-      },
-    },
+
     themes: [
       {
         mytheme: {
@@ -46,16 +36,27 @@ module.exports = {
 
           error: "#F34960",
           fontFamily: {
-            sans: ["BNPP Sans", "system-ui"],
-            serif: ["BNPP Sans", "Georgia"],
-            mono: ["BNPP Sans", "SFMono-Regular"],
-            display: ["BNPP Sans"],
-            body: ["BNPP Sans"],
+            sans: ['"BNPP Sans"', "system-ui"],
+            serif: ['"BNPP Sans"', "Georgia"],
+            mono: ['"BNPP Sans"', "SFMono-Regular"],
+            display: ['"BNPP Sans"'],
+            body: ['"BNPP Sans"'],
           },
         },
       },
       "light",
       "dark",
     ],
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['"BNPP Sans"', "system-ui"],
+          serif: ['"BNPP Sans"', "Georgia"],
+          mono: ['"BNPP Sans"', "SFMono-Regular"],
+          display: ['"BNPP Sans"'],
+          body: ['"BNPP Sans"'],
+        },
+      },
+    },
   },
 };
