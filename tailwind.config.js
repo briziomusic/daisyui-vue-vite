@@ -15,12 +15,14 @@ module.exports = {
     prefix: "",
     darkTheme: "dark",
     theme: {
-      fontFamily: {
-        sans: ["BNPP Sans", "system-ui"],
-        serif: ["BNPP Sans", "Georgia"],
-        mono: ["BNPP Sans", "SFMono-Regular"],
-        display: ["BNPP Sans"],
-        body: ["BNPP Sans"],
+      extend: {
+        fontFamily: {
+          sans: ["BNPP Sans", "system-ui"],
+          serif: ["BNPP Sans", "Georgia"],
+          mono: ["BNPP Sans", "SFMono-Regular"],
+          display: ["BNPP Sans"],
+          body: ["BNPP Sans"],
+        },
       },
     },
     themes: [
