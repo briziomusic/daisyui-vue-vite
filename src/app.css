@@ -3,14 +3,240 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "BNPP Sans";
-  src: url("https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans.woff")
-      format("woff"),
-    url("https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans.ttf")
-      format("truetype");
+  font-family: 'TNTT Sans';
+  src: url('https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans.woff')
+      format('woff'),
+    url('https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans.ttf')
+      format('truetype');
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
+}
+
+@font-face {
+  font-family: bnpSans;
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-light.eot);
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-light.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-light.woff)
+      format('woff'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-light.ttf)
+      format('truetype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-light.svg#BNPPSans)
+      format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: bnpSans;
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-italic.eot);
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-italic.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-italic.woff)
+      format('woff'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-italic.ttf)
+      format('truetype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-italic.svg#BNPPSans)
+      format('svg');
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: bnpSans;
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans.eot);
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans.woff)
+      format('woff'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans.ttf)
+      format('truetype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans.svg#BNPPSans)
+      format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: bnpSansCondensed;
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-light-v2.eot);
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-light-v2.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-light-v2.woff)
+      format('woff'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-light-v2.ttf)
+      format('truetype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-light-v2.svg#BNPPSansCondensed)
+      format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: bnpSansCondensed;
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-v2.eot);
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-v2.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-v2.woff)
+      format('woff'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-v2.ttf)
+      format('truetype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-v2.svg#BNPPSansCondensed)
+      format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: bnpSansCondensed;
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-bold-v2.eot);
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-bold-v2.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-bold-v2.woff)
+      format('woff'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-bold-v2.ttf)
+      format('truetype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-bold-v2.svg#BNPPSansCondensed)
+      format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: bnpSansCondensed;
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-extrabold-v2.eot);
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-extrabold-v2.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-extrabold-v2.woff)
+      format('woff'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-extrabold-v2.ttf)
+      format('truetype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-sans-cond-extrabold-v2.svg#BNPPSansCondensed)
+      format('svg');
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: bnpRounded;
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-rounded-v2.eot);
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-rounded-v2.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-rounded-v2.woff)
+      format('woff'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-rounded-v2.ttf)
+      format('truetype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-rounded-v2.svg#BNPPRounded)
+      format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: bnpRounded;
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-rounded-bold-v2.eot);
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-rounded-bold-v2.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-rounded-bold-v2.woff)
+      format('woff'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-rounded-bold-v2.ttf)
+      format('truetype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-rounded-bold-v2.svg#BNPPRounded)
+      format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: bnpSquare;
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-square-regular-v3.eot);
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-square-regular-v3.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-square-regular-v3.woff)
+      format('woff'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-square-regular-v3.ttf)
+      format('truetype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-square-regular-v3.svg#BNPPSquare)
+      format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: bnpType;
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-type-regular-v2.eot);
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-type-regular-v2.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-type-regular-v2.woff)
+      format('woff'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-type-regular-v2.ttf)
+      format('truetype'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-type-regular-v2.svg#BNPPSquare)
+      format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: bnppSlabSerif;
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-slabserif-regular-v2-webfont.woff2)
+      format('woff2'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-slabserif-regular-v2-webfont.woff)
+      format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: bnppSlabSerifExpanded;
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-slabexpanded-regular-v2-webfont.woff2)
+      format('woff2'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-slabexpanded-regular-v2-webfont.woff)
+      format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: bnppSerif;
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-serif-regular-v2-webfont.woff2)
+      format('woff2'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp-serif-regular-v2-webfont.woff)
+      format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: bnppExpandedSans;
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp_expanded_sans-webfont.woff2)
+      format('woff2'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/bnpp_expanded_sans-webfont.woff)
+      format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: bnppScript;
+  src: url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/BNPPScript-Regular.woff2)
+      format('woff2'),
+    url(https://bfomantic.s3.eu-west-3.amazonaws.com/dist/themes/bnpls/assets/fonts/BNPPScript-Regular.woff)
+      format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
 /*
 @font-face {
@@ -41,3 +267,7 @@
 }
 */
 
+html,
+body {
+  @apply bg-base-200;
+}
