@@ -4,6 +4,18 @@ module.exports = {
   content: ["./src/**/*.{vue,js,ts}"],
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
 
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['"BNPP Sans"', "system-ui"],
+        serif: ['"BNPP Sans"', "Georgia"],
+        mono: ['"BNPP Sans"', "SFMono-Regular"],
+        display: ['"BNPP Sans"'],
+        body: ['"BNPP Sans"'],
+      },
+    },
+  },
+
   // daisyUI config (optional)
   daisyui: {
     styled: true,
@@ -47,16 +59,6 @@ module.exports = {
       "light",
       "dark",
     ],
-    theme: {
-      extend: {
-        fontFamily: {
-          sans: ['"BNPP Sans"', "system-ui"],
-          serif: ['"BNPP Sans"', "Georgia"],
-          mono: ['"BNPP Sans"', "SFMono-Regular"],
-          display: ['"BNPP Sans"'],
-          body: ['"BNPP Sans"'],
-        },
-      },
-    },
+    
   },
 };
