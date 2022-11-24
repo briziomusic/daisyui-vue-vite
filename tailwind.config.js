@@ -39,8 +39,11 @@ module.exports = {
     themes: [
       {
         tntt_light: {
-          ...require('daisyui/src/colors/themes')['[data-theme=corporate]'],
-
+          ...require('daisyui/src/colors/themes')['[data-theme=light]'],
+          primary: '#00915A',
+          secondary: '#ffb538',
+          accent: '#1cc2f2',
+          neutral: '#3d4451',
           'base-content': '#2d2926',
         },
       },

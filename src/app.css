@@ -271,3 +271,10 @@ html,
 body {
   @apply bg-base-200;
 }
+
+.fix-baseline {
+  @apply pb-1;
+}
+.btn.fix-baseline {
+  @apply pt-1;
+}
