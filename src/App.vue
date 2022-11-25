@@ -1,8 +1,8 @@
 <template>
   <Navbar />
 
-  <div class="btn fix-baseline m-8">CLICK ME!</div>
-  <div class="p-10">
+  <div class="w-full max-w-screen-2xl m-auto">
+    <div class="btn fix-baseline">CLICK ME!</div>
     <p class="text-sm my-8">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Praesent tristique

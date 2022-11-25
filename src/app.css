@@ -272,9 +272,18 @@ body {
   @apply bg-base-200;
 }
 
-.fix-baseline {
-  @apply pb-1;
+[data-theme='tntt_light'] .fix-baseline {
+  @apply pb-1.5;
 }
-.btn.fix-baseline {
-  @apply pt-1;
+
+[data-theme='tntt_light'] .fix-baseline,
+[data-theme='tntt_light'] .fix-baseline svg {
+  @apply pb-1.5;
+}
+[data-theme='tntt_light'] .btn.fix-baseline {
+  @apply pt-2;
+}
+
+[data-theme='tntt_light'] .navbar {
+  @apply h-12 min-h-full px-0;
 }

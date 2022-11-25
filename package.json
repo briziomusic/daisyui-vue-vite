@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/daisyui-vue-vite/",
+    "build-full": "postcss src/full/index.css -o dist/full.css --config src/full",
     "serve": "vite preview"
   },
   "dependencies": {
